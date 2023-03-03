@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons",
+    "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  letter-spacing: 1.5px;
+  list-style: none;
+  white-space: normal;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #3f434a;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 29px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.header_background {
+  height: 110vh;
+}
+
+.header_logo {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 17%;
+  position: absolute;
+  margin: auto;
+  z-index: 10;
+}
+
+.text {
+  padding: 60px 24px;
+}
+
+.text h1 {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 29px;
+}
+
+.text p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 64px 0;
+  background: #f6f5f1;
+}
+
+.app h2 {
+  margin: 16px 0;
+  font-size: 26px;
+}
+
+.app p {
+  margin-bottom: 25px;
+  padding-right: 24px;
+  font-size: 15px;
+}
+
+.app_left {
+  padding: 40px;
+}
+
+.app_img {
+  white-space: nowrap;
+}
+
+.app_img a {
+  text-decoration: none;
+}
+
+.app_img img {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.app_main {
+  height: 30%;
+  width: 30%;
+}
+
+.content {
+  overflow-x: hidden;
+}
+
+.content p {
+  padding-top: 20px;
+}
+
+.content img {
+  position: relative;
+  height: 400px;
+  z-index: 10;
+}
+
+.content_box {
+  position: absolute;
+  margin-top: -350px;
+  height: 400px;
+  padding: 50px 0;
+  z-index: 100;
+}
+
+.content_box h3,
+.content_box p {
+  position: relative;
+  white-space: nowrap;
+}
+
+.bolume {
+  background: #ecddd6;
+}
+
+.bolume div,
+.fast div {
+  right: 0;
+}
+
+.cute {
+  background: #d9d0e3;
+}
+
+.fast {
+  background: #c9d4da;
+}
+
+.bolume div,
+.fast div {
+  padding-right: 10px;
+}
+
+.cute div {
+  padding-left: 10px;
+}
+
+.cute img {
+  display: block;
+  margin-left: auto;
+}
+
+.sale {
+  padding: 60px 30px 10px 30px;
+  background: #f6f5f1;
+}
+
+.sale h2,
+.sale p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.sale_img {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.sale_img::-webkit-scrollbar {
+  display: none;
+}
+
+.sale_img a {
+  text-decoration: none;
+}
+
+.sale_img a img {
+  height: 50vh;
+  width: 35vh;
+  margin: 10px 10px 0 10px;
+}
+
+.sale_img a p {
+  position: relative;
+  top: -50px;
+  left: 20px;
+  text-align: left;
+  color: white;
+  font-weight: 800;
+  z-index: 10;
+}
+
+.flow_title {
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+.flow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  overflow-x: scroll;
+}
+
+.flow::-webkit-scrollbar {
+  display: none;
+}
+
+.icon_arrow {
+  position: relative;
+  height: 70px;
+  top: 150px;
+  margin: 0 30px;
+}
+
+.flow div {
+  text-align: center;
+  width: 220px;
+}
+
+.flow div img {
+  height: 150px;
+}
+
+.flow div h3 {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.flow div p {
+  font-size: 13px;
+  text-align: left;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f6f5f1;
+}
+
+.instagram h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+.instagram ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 100px;
+}
+
+.instagram ul a {
+  display: flex;
+  width: 20%;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.instagram_img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.icon_instagram {
+  margin-top: 5%;
+  margin-left: -95%;
+  height: 25px;
+  width: 25px;
+  z-index: 10;
+}
+
+.instagram_link {
+  height: 60px;
+  width: 300px;
+  margin: 0 auto 50px auto;
+  border: 2px solid black;
+  border-radius: 50vh;
+}
+
+.instagram_link p {
+  padding: 18px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.style {
+  background: #f2e4e4;
+}
+
+.style h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.style ul {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: scroll;
+}
+
+.style ul::-webkit-scrollbar {
+  display: none;
+}
+
+.style ul li {
+  position: relative;
+  width: 40%;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 100px;
+}
+
+.style ul li img {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  border-radius: 24px 24px 0 0;
+}
+
+.style_box {
+  width: 100%;
+  height: 300px;
+  background: white;
+  z-index: 10;
+  border-radius: 0 0 24px 24px;
+}
+
+.style_box h3 {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.style_box p {
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.style-list {
+  padding: 20px 0;
+}
+
+.price {
+  padding-bottom: 50px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+}
+
+.media img {
+  width: 150px;
+  margin: 50px;
+}
+
+.question {
+  padding: 30px 200px;
+  background: #f6f5f1;
+}
+
+.question h2 {
+  text-align: center;
+}
+
+.question_box h3 {
+  font-size: 18px;
+}
+
+.question_box p {
+  padding: 10px 0 10px 30px;
+}
+
+.app_bottom {
+  background: rgb(63, 67, 74);
+}
+
+.app_bottom_bg {
+  width: 100vw;
+}
+
+.app_bottom_download {
+  margin-top: -350px;
+}
+
+.app_bottom_logo {
+  left: 0;
+  right: 0;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  z-index: 11;
+}
+
+.app_bottom p {
+  left: 0;
+  right: 0;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  z-index: 11;
+}
+
+.app_bootom_badge {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  z-index: 11;
+}
+
+.app_bootom_badge img {
+  width: 160px;
+  margin: 10px;
+}
+
+footer {
+  position: relative;
+  margin-top: 110px;
+  padding: 50px;
+  background: rgb(63, 67, 74);
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  height: 30px;
+  padding: 50px 10px;
+}
+
+footer p {
+  color: rgb(120, 120, 120);
+  white-space: nowrap;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+  .instagram ul a {
+    width: 30%;
+  }
+
+  .style_box {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_background {
+    height: 80vh;
+    width: initial;
+  }
+
+  .app {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .app_left h2 {
+    text-align: center;
+  }
+
+  .app_main {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+  }
+
+  .app_img {
+    margin: auto;
+  }
+
+  .app_img img {
+    width: 45%;
+    margin-right: 0;
+  }
+
+  .content_box {
+    position: relative;
+    height: initial;
+    margin: 0;
+  }
+
+  .content_box h3 {
+    text-align: center;
+  }
+
+  .bolume div,
+  .fast div {
+    padding: 20px 15px;
+  }
+
+  .cute div {
+    padding: 20px 15px;
+  }
+
+  .flow {
+    justify-content: initial;
+    padding: 0 30%;
+  }
+
+  .instagram ul {
+    margin: 0;
+  }
+
+  .instagram_img {
+    width: 100%;
+  }
+
+  .question {
+    padding: 0 20px;
+  }
+
+  .app_bottom_download {
+    margin-top: -100px;
+  }
+
+  .style ul {
+    justify-content: initial;
+  }
+
+  .style ul li {
+    width: initial;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .style ul li img {
+    width: 80vw;
+  }
+
+  .style_box {
+    height: 400px;
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    justify-content: initial;
+  }
+
+  .container a {
+    margin-bottom: 10px;
+  }
+
+  .media {
+    justify-content: initial;
+  }
+
+  .media::-webkit-scrollbar {
+    display: none;
+  }
+
+  .question h2 {
+    padding: 20px 0;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+  .app_bottom {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .app_bottom_bg {
+    height: 60vh;
+    width: initial;
+  }
+
+  .app_bottom_download {
+    display: none;
+  }
+
+  footer p {
+    font-size: 5px;
+  }
+}
